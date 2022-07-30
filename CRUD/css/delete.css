@@ -1,0 +1,115 @@
+/*custom font*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient( 120deg, rgb(199, 5, 5) 0%, rgb(219, 10, 93) 15%, rgb(224, 69, 175) 28%, rgb(163, 18, 221) 44%, rgb(191, 17, 244) 67%, rgb(214, 9, 71) 100%);
+}
+
+body {
+    font-family: montserrat, arial, verdana;
+}
+
+
+/*form styles*/
+
+#msform {
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+}
+
+#msform form,
+fieldset {
+    background: rgb(255, 255, 255);
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+
+/*inputs*/
+
+#msform input,
+#msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+.imgStyle {
+    width: 600px;
+}
+
+
+/*buttons*/
+
+#msform .action-button {
+    width: 100px;
+    background: rgb(216, 44, 110);
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    border: 0 none;
+    border-radius: 1px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 20px;
+}
+
+#msform .action-button:hover {
+    background-color: rgb(242, 185, 207);
+}
+
+
+/*headings*/
+
+.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.fs-subtitle2 {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+}
+
+@media only screen and (max-width: 715px) {
+    #msform {
+        width: 400px;
+    }
+    .imgStyle {
+        width: 50%;
+    }
+}

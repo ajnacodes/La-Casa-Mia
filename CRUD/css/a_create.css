@@ -1,0 +1,115 @@
+/*custom font*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /*Image only BG fallback*/
+    /*background = gradient + image pattern combo*/
+    background: linear-gradient(200deg, rgba(36, 186, 213, 0.425) 0%, rgba(40, 198, 201, 0.417) 15%, rgba(85, 233, 181, 0.447) 33%, rgba(125, 241, 229, 0.47) 44%, rgba(18, 172, 223, 0.437) 59%, rgba(27, 106, 233, 0.452) 77%, rgba(46, 87, 175, 0.467) 91%, rgba(149, 46, 175, 0.524) 100%);
+    /* background: linear-gradient(rgba(196, 101, 0, 0.332), rgba(155, 89, 182, 0.6)); */
+}
+
+body {
+    font-family: montserrat, arial, verdana;
+}
+
+
+/*form styles*/
+
+#msform {
+    width: 600px;
+    margin: 170px auto;
+    text-align: center;
+    position: relative;
+}
+
+#msform fieldset {
+    background: rgb(255, 255, 255);
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(13, 116, 225, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+
+/*buttons*/
+
+#msform .action-button {
+    width: 100px;
+    background: linear-gradient(200deg, rgba(36, 186, 213, 0.274) 0%, rgba(40, 198, 201, 0.217) 15%, rgba(85, 233, 181, 0.27) 33%, rgba(125, 241, 229, 0.278) 44%, rgba(18, 172, 223, 0.316) 59%, rgba(27, 106, 233, 0.313) 77%, rgba(46, 87, 175, 0.332) 91%, rgba(149, 46, 175, 0.281) 100%);
+    font-weight: bold;
+    box-shadow: 0 0 7px 3px rgba(14, 7, 71, 0.119);
+    color: rgba(18, 45, 64, 0.801);
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover {
+    background: linear-gradient(200deg, rgba(36, 186, 213, 1) 0%, rgba(40, 198, 201, 1) 15%, rgba(85, 233, 181, 1) 33%, rgba(125, 241, 229, 1) 44%, rgba(18, 171, 223, 1) 59%, rgba(27, 105, 233, 1) 77%, rgba(46, 86, 175, 1) 91%, rgba(149, 46, 175, 1) 100%);
+}
+
+
+/*headings*/
+
+.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.fs-subtitle2 {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.danger {
+    background-color: rgba(240, 104, 104, 0.852);
+}
+
+hr {
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    #msform {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #msform {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #msform {
+        width: 300px;
+    }
+}
