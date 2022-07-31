@@ -9,11 +9,13 @@ if($_SERVER['REQUEST_METHOD'] == "GET"){
 $result = mysqli_query($connect, $sql);
 if($result){
     $row = mysqli_fetch_all($result, MYSQLI_ASSOC);
-    response(200, "Data fetched succesfully", $row);
+    response($row);
 }
 else{
-    response(400, 'error');
+    response('error');
 }  
 }
 
 mysqli_close($connect);
+
+

@@ -1,0 +1,24 @@
+.cardSize {
+    width: 700px;
+    height: auto;
+}
+
+.imgSize {
+    height: auto;
+}
+
+
+/* div #map element.style {
+    position: absolute;
+    display: block;
+    width: 600px;
+    overflow: visible;
+    overflow: scroll;
+} */
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 60%;
+    /* The width is the width of the web page */
+}
