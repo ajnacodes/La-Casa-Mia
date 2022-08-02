@@ -12,7 +12,7 @@ if(mysqli_num_rows($result) > 0) {
     <tr class='productsRow'>
 
     <td>
-    <h5 class='card-title text-center'>".$row['title']."</h5>
+    <h5 class='card-title text-center overflName'>".$row['title']."</h5>
     </td>
 
     <td>
@@ -35,22 +35,22 @@ if(mysqli_num_rows($result) > 0) {
 
  
     <td>
-    <h5 class='card-title text-center'>".$row['price']."</h5>
+    <h5 class='card-title text-center overflPrice'>".$row['price']."</h5>
     </td>
 
     
     <td>
-    <h5 class='card-title text-center'>".$row['address']."</h5>
+    <h5 class='card-title overfl text-center'>".$row['address']."</h5>
     </td>
 
     
     <td>
-    <h5 class='card-title text-center'>".$row['longitude']."</h5>
+    <h5 class='card-title text-center overflLong'>".$row['longitude']."</h5>
     </td>
 
     
     <td>
-    <h5 class='card-title text-center'>".$row['latitude']."</h5>
+    <h5 class='card-title text-center overflLat'>".$row['latitude']."</h5>
     </td>
 
     
@@ -106,17 +106,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     <table cellpadding="0" cellspacing="0" border="0">
       <thead>
         <tr>
-          <th class="actionss">Title</th>
-          <th class="actionss">Image</th>
+          <th class="actionss">Name</th>
+          <th class="actionss">Img</th>
           <th class="actionss">Size</th>
           <th class="actionss">Rooms</th>
           <th class="actionss">City</th>
           <th class="actionss">Price</th>
           <th class="actionss">Address</th>
-          <th class="actionss">Longitute</th>
-          <th class="actionss">Latitude</th>
+          <th class="actionss">Lng</th>
+          <th class="actionss">Lat</th>
           <th class="actionss">Reduced</th>
-          <th class="actionss">Actions</th>
+          <th class="actionss">Action</th>
         </tr>
       </thead>
     </table>
