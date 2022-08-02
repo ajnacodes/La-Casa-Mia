@@ -16,10 +16,15 @@
     text-align: center;
     position: relative;
     color: rgb(14, 39, 20);
-    border-radius: 50%;
+    border-radius: 5%;
     padding: 50px;
     margin: 30px;
-    background-color: rgba(255, 255, 255, 0.464);
+    background-color: rgba(255, 255, 255, 0.111);
+}
+
+.hero-text p {
+    font-size: 30px;
+    color: azure;
 }
 
 button {

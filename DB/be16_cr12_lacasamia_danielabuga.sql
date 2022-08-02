@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 01, 2022 at 12:52 AM
+-- Generation Time: Aug 02, 2022 at 11:30 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -49,10 +49,10 @@ CREATE TABLE `properties` (
 
 INSERT INTO `properties` (`id`, `title`, `size`, `rooms_n`, `city`, `price`, `image`, `address`, `latitude`, `longitude`, `price_reduction`) VALUES
 (1, 'Appartment ', 100, 3, 'Vienna, 1180', 200000, 'image1.jpg', 'Potzleinsdorfer Str. 34', '48.24020', '16.31471', 'yes'),
-(2, 'Sunny Appartment with Garden', 140, 4, 'Vienna, 1190', 250000, 'image2.jpg', 'Second Address 2', '12.4345', '13.4564', 'no'),
-(3, 'Top Floor Luxury Apartment With Pool', 250, 4, 'Graz, 11', 500000, 'image3.jpg', 'VillaStreet 234', '32.4323', '23.3443', 'no'),
-(4, 'Cozy House with Garden and Pool', 400, 5, 'Vienna, 1230', 1000000, 'image4.jpg', 'CozyHouse 43', '12.3333', '13.4564', 'yes'),
-(5, 'Small House', 100, 2, 'Vienna', 450000, 'image5.jpg', 'SmallHouse 342', '12.3333', '13.4564', 'yes');
+(2, 'Sunny Appartment with Garden', 140, 4, 'Vienna, 1080', 250000, 'image2.jpg', 'Laudongasse 9-1', '48.21343', '16.35295', 'no'),
+(3, 'Top Floor Luxury Apartment With Pool', 250, 4, 'Vienna, 1020', 500000, 'image3.jpg', 'Taborstrasse 111', '48.22834', '16.39028', 'no'),
+(4, 'Cozy House with Garden and Pool', 400, 5, 'Vienna, 1230', 1000000, 'image4.jpg', 'Kunerolgasse 3', '48.15462', '16.30162', 'yes'),
+(5, 'Small House', 100, 2, 'Vienna, 1130', 450000, 'image5.jpg', 'Hiezing', '48.17352', '16.25407', 'yes');
 
 --
 -- Indexes for dumped tables

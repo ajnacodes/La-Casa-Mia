@@ -3,33 +3,10 @@ body {
     font-family: Garamond;
 }
 
-.cardSize {
-    width: 700px;
-    height: auto;
-}
-
-.imgSize {
-    height: auto;
-}
-
-
-/* div #map element.style {
-    position: absolute;
-    display: block;
-    width: 600px;
-    overflow: visible;
-    overflow: scroll;
-} */
-
-#map {
-    height: 400px;
-    width: 60%;
-}
-
 .card,
 .card-body {
     background-color: rgba(91, 86, 86, 0.272);
-    font-size: 20px;
+    color: rgb(234, 225, 213);
 }
 
 .navbar-expand-lg {

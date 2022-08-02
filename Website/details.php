@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/hero.css">
     <link rel="stylesheet" href="css/details.css">
+    
 
     <title>Home</title>
 </head>
@@ -60,11 +61,11 @@
                         with a size of 
                         <?=$row["size"]?> meters.
                         <br>
-                        Contains  <?=$row["rooms_n"]?> and is located in  <?=$row["address"]?>.
+                        Contains  <?=$row["rooms_n"]?> rooms and is located in  <?=$row["address"]?>.
                     
                     </p>
                     <p class="card-text text-center"><b>Price:</b> <br> <?=$row["price"]?> EUR</p>
-                    <a href="index.php" class="btn btn-primary">Go Back</a>
+                    <a href="index.php" class="btn btn-outline-info">Go Back</a>
                 </div>
             </div>
         </div>
@@ -76,8 +77,10 @@
  <div  id="map"></div>
  </div>
  
-
- <footer></footer>
+<!-- Footer -->
+<div class="my-5">
+<footer></footer>
+</div>
 
     <!-- fetching scripts -->
 

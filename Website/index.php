@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/hero.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    
 
     <title>Home</title>
 </head>
@@ -39,11 +44,14 @@
             <div class='card'>
   <img class='card-img-top'  style='height: 24rem;' src='../img/".$row['image']."' alt='Card image cap'>
   <div class='card-body'>
-    <h5 class='card-title'>".$row['title']."</h5>
-    <p class='card-text'>".$row['address']."</p>
-    <p class='card-text'>".$row['city']."</p>
-    <p class='card-text'>".$row['price']."</p>
-    <a href='details.php?id=".$row['id']."' class='btn btn-primary'>Details</a>
+    <h5 class='card-title'>".$row['title']."</h5> <hr>
+    <p class='card-text'> <b>Address: </b> <br>
+    ".$row['address']."</p>
+    <p class='card-text'><b>City: </b> <br>
+    ".$row['city']."</p>
+    <p class='card-text'><b>Price:</b> <br>
+    ".$row['price']."</p>
+    <a href='details.php?id=".$row['id']."' class='btn btn-outline-info'>Details</a>
   </div>
 </div>
             </div>
@@ -69,16 +77,18 @@
        
    
 <!-- Footer -->
-<div class="my-3">
+<div class="my-5">
 <footer></footer>
 </div>
 
     <!-- fetching scripts -->
 
+
     <script src="JS/index.js"></script>
 
+
+
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 
     <script>
